@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audina Sitanggang</title>  
+    <link rel="stylesheet" href="style.css">      
+</head>
+<body>
+    <div id="landing-page">
+        <h1 class="title">Selamat datang di website saya</h1>
+    </div>
+    <button id="see-more"><a href="#about-me">Find more</a></button>
+    <div class="container">
+    <header>
+        <div class="respiratory">
+            <ul>
+                <li><a href="https://app.netlify.com/teams/audinastg/overview" target="_blank"><img src="images/netlify.svg" alt=""></a></li>
+                <li><a href="https://github.com/audinastgg" target="_blank"><img src="images/github.svg" alt=""></a></li>
+                <li><a href="https://gitlab.com/stgg" target="_blank"><img src="images/gitlab.svg" alt=""></a></li>
+            </ul>
+        </div>
+
+        <div class="menu">
+            <ul>
+                <li><a href="#landing-page">Home</a></li>
+                <li><a href="#project">Projects</a></li>
+                <li><a href="cv.html">Curriculum Vitae</a></li>
+                <li><a href="#my-profile">Contact</a></li>
+            </ul>
+        </div>
+        <div class="dropdown">
+            <button onclick="dropFunction()" class="dropbtn">Menu</button>
+            <ul id="myDropdown" class="dropdown-content">
+              <li><a href="#landing-page">Home</a></li>
+              <li><a href="#project">Projects</a></li>
+              <li><a href="cv.html">Curriculum Vitae</a></li>
+              <li><a href="#my-profile">Contact</a></li>
+            </ul>
+          </div>
+    </header>
+    <section class="main">
+        <div id="about-me">
+            <div class="section-introduction">
+                    <img src="images/profile.jpeg" alt="aboutme" class="profile">
+                <p>
+                    Hi,My name is Audina L. Sitanggang  I enjoy web development, particularly in creating modern and responsive website designs. 
+                    I create website using CMS WordPress. Using WordPress, I can create stunning and functional websites that are easy to manage and update.
+                </p>
+            </div>
+        </div>
+
+        <div id="project">
+            <div class="heading">
+                <h1>Projects</h1>
+            </div>
+            <div class="images">
+                <span id="myImages">
+                <a href="https://audinastgg-3-column-preview-card-component-main.netlify.app/" target="_blank"><img src="images/1.jpg" alt=""><span> Three Column Preview Card</span></a>
+                <a href="https://four-card-featured-section.netlify.app/" target="_blank"><img src="images/2.jpg" alt=""><span>Four Card Featured Section</span></a>
+                <a href="https://audinastgg-nft-preview-card-component.netlify.app/" target="_blank"><img src="images/3.jpg" alt=""><span>NFT Preview Card</span></a></span>
+                <span id="dots"></span><span id="more">
+                <a href="https://audinastgg-ordersummarycomponent.netlify.app/" target="_blank"><img src="images/4.jpg" alt=""><span>Order Summary Component</span></a>
+                <a href="https://audinastgg-profile-card-component-main.netlify.app/"><img src="images/5.jpg" alt=""><span>Profile Card Component</span></a>
+                <a href="https://audinasitanggang-qr-code.netlify.app/" target="_blank"><img src="images/6.jpg" alt=""><span>QRCode Component</span></a>
+                <a href="https://audinastgg-single-price-gridcomponent.netlify.app/" target="_blank"><img src="images/7.jpg" alt=""><span>Single Price Grid Component</span></a>
+                <a href="https://audinastgg-social-proof-section.netlify.app/"><img src="images/8.jpg" alt=""><span>Social Proof Section</span></a>
+                <a href="https://audinastgg-stats-preview-card-component.netlify.app/"><img src="images/9.jpg" alt=""><span>Stats Preview Component</span></a>
+                <a href="https://solusinusantara.com/"><img src="images/pt-solusi-nusantara.png" alt=""><span>PT. Solusi Nusantara</span></a>
+                <a href="https://kriskajatindo.com/"><img src="images/kriska-jatindo-logo.png" alt=""><span>PT. Kriska Jatindo</span></a>
+                <a href="https://methodistmoriakisaran.sch.id/"><img src="images/logo-yp-methodhist-kisaran-1536x422.png" alt=""><span>Yayasan Pendidikan Kristen Methodist Moria Kisaran</span></a>
+                <a href="https://smasprimbanamedan.sch.id/"><img src="images/sma-primbana-medan.png" alt=""><span>SMA Primbana Medan</span></a>
+                <a href="https://solusisehatmental.com/"><img src="images/Solusi-Sehat-Mental-Header-Logo.png" alt=""><span>PT. Solusi Sehat Mental</span></a>
+                <a href="https://www.hadiahterbaik.com/"><img src="images/" alt=""><span>Hadiah Terbaik</span></a>
+            </span>
+        </div>
+        <button onclick="myFunction()" id="myBtn">Show More</button>
+    </div>
+
+    <div id="my-profile">
+        <div class="me">
+            <h1>Kontak Saya</h1>
+        </div>
+        <div class="contact-saya">
+            <div>
+                <a href="https://wa.me/+6282364361104" target="_blank" class="contact-icon-bundler">
+                    <img src="https://img.icons8.com/office/344/whatsapp--v1.png" alt="phone.png" class="contact-icon">
+                    <span class="contact-desktop">+62 823 6436 1104</span>
+                </a>
+            </div>
+            <div>
+                <a href="mailto:someone@example.com" class="contact-icon-bundler">
+                    <img src="https://img.icons8.com/fluency/344/gmail-new.png" alt="mail.png" class="contact-icon">
+                    <span class="contact-desktop">audinasitanggang@gmail.com</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    </section>
+</div>
+<footer>
+    <p>Created by Audina L. Sitanggang</p>
+</footer>
+<script>
+    function myFunction() {
+      var dots = document.getElementById("dots");
+      var moreImage = document.getElementById("more");
+      var btnText = document.getElementById("myBtn");
+      var myImages = document.getElementById("myImages");
+    
+      if (dots.style.display === "none") {
+        dots.style.display = "inline";
+        btnText.innerHTML = "Show more"; 
+        moreImage.style.display = "none";
+      } else {
+        dots.style.display = "none";
+        btnText.innerHTML = "Show less";
+        moreImage.style.display = "grid";
+        moreImage.style.gridTemplateColumns = "1fr 1fr 1fr";
+      }
+    }
+
+    
+  function dropFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+    </script>
+    
+</body>
+</html>

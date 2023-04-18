@@ -1,0 +1,317 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: rgb(174, 198, 212);
+    font-family: 'Fredoka', sans-serif;
+}
+.container {
+    margin: 0 auto;
+}
+#landing-page {
+    background-attachment: fixed;
+    position: relative;
+    height: 100vh;
+    background-size: cover;
+    background-image: url(images/bg.jpg);
+}
+#see-more {
+    position: absolute;
+    margin: 0;
+    text-align: center;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px 30px;
+    border-radius: 40px;
+    border: 1px solid gray;
+    cursor: pointer;
+    background-color: transparent;
+    overflow: hidden;
+    outline: none;
+}
+#see-more:hover{
+    color: white;
+    font-weight: 500;
+    background-color: #003a55;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.title {
+    position: absolute;
+    color: rgb(255, 255, 255);
+    margin: 0;
+    width: 100%;
+    top: 45%;
+    text-align: center;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #003a55;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+    position: sticky;
+    top: 0;
+    padding: 20px;
+}
+
+ul {
+    list-style: none;
+}
+
+li, a{
+    display: inline;
+    text-decoration: none;
+    padding: 10px;
+    color: #000000;
+    font-weight: 500;
+    font-size: 18px;
+}
+a:hover {
+    color: white;
+}
+header img {
+    width: 20px;
+}
+header img:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    border-radius: 10px;
+}
+.dropbtn {
+    display: none;
+}
+.dropdown {
+    display: none;
+}
+
+.container{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.section-introduction {
+    text-align: center;
+    margin-top: 50px;
+}
+.section-introduction img {
+   width: 100px;
+   border-radius: 50%;
+}
+
+.section-introduction p {
+    max-width: 500px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+#project {
+    background-color: #d3d7dfd2;
+    margin: 0 auto;
+    width: 95%;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    text-align: center;
+    padding-bottom: 50px;
+    border-radius: 5px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.heading {
+    padding: 50px;
+    text-decoration: underline;
+}
+
+#myImages {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.images {
+    /* padding: 50px 50px; */
+    margin: 0 auto;
+
+}
+.images a > img {
+    width: 50%;
+    height: 50%;
+    padding: 50px;
+    padding-top: 20px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.images a > img:hover{
+    cursor: context-menu;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+
+span{
+    color: #000000;
+    display: block;
+}
+span:hover{
+    color: #00293b;
+}
+
+#more{
+    display: none;
+}
+#myBtn{
+   width: 150px; 
+   border-radius: 10px;
+   padding: 10px 20px;
+   margin-top: 50px;
+   border: none;
+   font-family: 'Fredoka', sans-serif;
+   font-weight: 500;
+   color: aliceblue;
+   background-color: #00293b;
+   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+#myBtn:hover{
+    cursor: pointer;
+}
+#my-profile {
+    margin-bottom: 100px;
+}
+.contact-saya {
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.contact-icon {
+    width: 50px;
+}
+
+form {
+    margin-top: 50px;
+}
+input,button{
+    padding: 10px 20px;
+    margin: 0;
+}
+input {
+    width: 300px;
+}
+
+footer {
+    text-align: center;
+    background: #00293b;
+    padding: 20px;
+    font-size: 12px;
+    font-weight: bold;
+    color: gray;
+}
+
+@media screen and (max-width: 700px) {
+body {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    margin: 0 auto;
+}
+    header {
+        display: flex;
+        justify-content: space-between;
+        padding: 0;
+    }
+
+    .respiratory {
+        position: absolute;
+        top: 45%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+    }
+   ul img {
+       padding: 0;
+       margin: 0 auto;
+   }
+    li,a {
+        display: inline;
+        
+  }
+  .menu {
+      display: none;
+  }
+  .dropbtn {
+      display: block;
+      border: none;
+      font-family: 'Fredoka', sans-serif;
+      font-size: 18px;
+      font-weight: 600;
+      background-color: transparent;
+  }
+  .dropdown {
+    display: block;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    text-align: left;
+    margin: 0 auto;
+    margin-right: 2px;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    right: 10px;
+    background-color: #003a55;
+    z-index: 1;
+  }
+ .dropbtn:hover{
+     color: white;
+     font-weight: 200;
+ }
+  .dropdown-content li a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    background-color: #003a55;
+  }
+  
+  .show {
+      display:block;
+    }
+
+  }
+
+  @media screen and (max-width: 500px) {
+    body {
+        margin: 0;
+        padding: 0;
+    } 
+    .container {
+          margin: 10 auto;
+      }
+      #see-more {
+          margin-top: 50px;
+      }
+    #myImages {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+   #myBtn {
+       display: none;
+   }
+    #more {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+  }
+  @media screen and (max-width: 400px) {
+        .contact-saya {
+            display: grid;
+            grid-template-columns: 1fr;
+        }
+       
+  }
